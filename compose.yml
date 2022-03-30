@@ -10,7 +10,7 @@ services:
     deploy:
       replicas: 1
   holigo-live-chat-service:
-    image: holigo/oligo-live-chat-service:1.0.0
+    image: holigo/holigo-live-chat-service:1.0.0
     ports:
       - 8112:8112
     environment:
