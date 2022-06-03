@@ -18,7 +18,7 @@ services:
         reservations:
           memory: 512M
   holigo-live-chat-service:
-    image: holigo/holigo-live-chat-service:1.0.3
+    image: holigo/holigo-live-chat-service:1.0.4
     ports:
       - 8112:8112
     environment:
@@ -28,7 +28,7 @@ services:
       collect_logs_with_filebeat: "true"
       decode_log_event_to_json_object: "true"
     deploy:
-      replicas: 3
+      replicas: 1
       resources:
         limits:
           memory: 4096M
