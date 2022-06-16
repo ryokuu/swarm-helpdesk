@@ -18,7 +18,7 @@ services:
         reservations:
           memory: 512M
   holigo-live-chat-service:
-    image: holigo/holigo-live-chat-service:1.0.6
+    image: holigo/holigo-live-chat-service:1.0.7
     ports:
       - 8112:8112
     environment:
